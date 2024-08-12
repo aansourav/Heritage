@@ -11,6 +11,15 @@ module.exports = {
                 poppins: ["Poppins", "sans-serif"],
                 montserrat: ["Montserrat", "sans-serif"],
             },
+            container: {
+                center: true,
+                screens: {
+                    "3xl": "1440px",
+                },
+                padding: {
+                    DEFAULT: "10px",
+                },
+            },
         },
     },
     plugins: [require("daisyui")],
