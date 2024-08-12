@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500;600&display=swap");
+
+@layer components {
+    .poppins-500 {
+        @apply font-poppins font-medium;
+    }
+    .poppins-600 {
+        @apply font-poppins font-semibold;
+    }
+    .montserrat {
+        @apply font-montserrat font-bold;
+    }
+}
