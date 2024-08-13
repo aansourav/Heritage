@@ -6,12 +6,12 @@ import bg5 from "../../public/assets/images/bg5.jpg";
 import bg6 from "../../public/assets/images/bg6.jpg";
 import Navbar from "../common/Navbar";
 import HeroSection from "./HeroSection";
+import ServiceSection from "./ServiceSection";
 import TwoColumnSection from "./TwoColumnSection";
 
 const Homepage = () => {
     return (
         <>
-            <Navbar />
             <HeroSection />
             <TwoColumnSection
                 heading={"Property Buying"}
@@ -24,6 +24,9 @@ const Homepage = () => {
                 imagePosition={"bottom"}
                 col
             />
+            <br />
+            <br />
+            <br />
             <TwoColumnSection
                 heading={"Property Buying"}
                 head={"Efficient and Transparent Home Buying Solutions"}
@@ -48,6 +51,7 @@ const Homepage = () => {
                 row
                 col
             />
+            <ServiceSection />
         </>
     );
 };

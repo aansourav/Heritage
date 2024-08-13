@@ -22,7 +22,7 @@ const TwoColumnSection = ({
             row={row}
             rowReverse={rowReverse}
             colReverse={colReverse}
-            className="my-20 justify-between"
+            className="mt-20 justify-between"
         >
             <div className="lg:w-1/2 max-w-lg">
                 <ImageContainer
@@ -33,7 +33,7 @@ const TwoColumnSection = ({
             </div>
             <div className="lg:w-1/2 max-w-lg">
                 <Heading heading={heading}>{head}</Heading>
-                <p className="text-shadow mt-7 mb-10">{paragraph}</p>
+                <p className="mt-7 mb-10">{paragraph}</p>
                 <Button type="primary">
                     <HiMagnifyingGlass className="text-2xl" />
                     Find Property
