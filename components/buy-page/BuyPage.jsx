@@ -1,4 +1,6 @@
 import ListingCard from "./ListingCard";
+import NewListedProperties from "./NewListedProperties";
+import PopularProperties from "./PopularProperties";
 import SearchBox from "./SearchBox";
 
 const BuyPage = () => {
@@ -6,6 +8,8 @@ const BuyPage = () => {
         <>
             <SearchBox />
             <ListingCard />
+            <PopularProperties />
+            <NewListedProperties />
         </>
     );
 };
