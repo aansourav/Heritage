@@ -1,7 +1,6 @@
 "use client";
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import TestimonialSection from "../buy-page/TestimonialSection";
+import { useState } from "react";
+import TestimonialSection from "../buy/TestimonialSection";
 import NewProjectTab from "../ui/NewProjectTab";
 import PreLaunchTab from "../ui/PreLaunchTab";
 import PropertiesTab from "../ui/propertiesTab";

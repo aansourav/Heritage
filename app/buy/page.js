@@ -1,4 +1,4 @@
-import BuyPage from "@/components/buy-page/BuyPage";
+import BuyPage from "@/components/buy/BuyPage";
 
 const page = () => {
     return <BuyPage />;

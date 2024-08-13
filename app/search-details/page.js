@@ -1,4 +1,4 @@
-import SearchDetails from "@/components/search-details-page/SearchDetails";
+import SearchDetails from "@/components/search-details/SearchDetails";
 
 const SearchDetailsPage = () => {
     return <SearchDetails />;

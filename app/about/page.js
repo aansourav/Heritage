@@ -1,6 +1,6 @@
-import StoryTeamSection from "@/components/about-page/StoryTeamSection";
-import ListingCard from "@/components/buy-page/ListingCard";
-import TestimonialSection from "@/components/buy-page/TestimonialSection";
+import StoryTeamSection from "@/components/about/StoryTeamSection";
+import ListingCard from "@/components/buy/ListingCard";
+import TestimonialSection from "@/components/buy/TestimonialSection";
 import Image from "next/image";
 import AboutBannerImage from "../../public/assets/images/about banner.jpeg";
 const AboutPage = () => {
