@@ -5,7 +5,6 @@ import { AiFillDollarCircle } from "react-icons/ai";
 import { BiHomeCircle } from "react-icons/bi";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { MdOutlineLocationOn } from "react-icons/md";
-import BGImage from "../../public/assets/images/buy_page_bg.jpeg";
 import Section from "../ui/Section";
 
 const SearchBox = () => {
@@ -47,7 +46,7 @@ const SearchBox = () => {
         <Section
             sectionClass="relative md:h-80 h-screen bg-cover bg-center mb-20 md:mb-44"
             style={{
-                backgroundImage: `url(${BGImage})`,
+                backgroundImage: `url("/assets/images/buy_page_bg.jpeg")`,
             }}
         >
             <div className="absolute inset-0 bg-gray-700 bg-opacity-60"></div>
