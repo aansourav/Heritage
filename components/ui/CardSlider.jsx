@@ -7,7 +7,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Card from "./Card";
 
-export default function CardSlider({ data }) {
+export default function CardSlider({ properties }) {
     const swiperParams = {
         slidesPerView: 3,
         spaceBetween: 20,
@@ -37,9 +37,9 @@ export default function CardSlider({ data }) {
     return (
         <div className="relative pb-20">
             <Swiper {...swiperParams}>
-                {data.map((item, index) => (
+                {properties?.map((property, index) => (
                     <SwiperSlide key={index}>
-                        <Card />
+                        <Card property={property} />
                     </SwiperSlide>
                 ))}
             </Swiper>

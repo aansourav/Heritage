@@ -1,9 +1,9 @@
 "use client";
 import { MdOutlineLocationOn } from "react-icons/md";
+import PopularProperties from "../buy/PopularProperties";
 import Section from "../ui/Section";
 import Amenities from "./Amenities ";
 import BidRange from "./BidRange";
-import NewProperties from "./NewProperties";
 import OtherServices from "./OtherServices";
 
 const PropertyDetails = () => {
@@ -33,7 +33,7 @@ const PropertyDetails = () => {
                 <Amenities />
             </div>
             <OtherServices />
-            <NewProperties />
+            <PopularProperties />
         </Section>
     );
 };

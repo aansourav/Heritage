@@ -4,6 +4,7 @@ const properties = [
         property_name: "Cozy Apartment",
         property_type: "Apartment",
         location: "123 Main Street, Cityville",
+        thumbnail: "/assets/images/room1.jpeg",
         price: 1500,
         details_overview:
             "A cozy apartment located in the heart of the city. Close to amenities and public transportation.",
@@ -30,6 +31,7 @@ const properties = [
         property_name: "Spacious House",
         property_type: "House",
         location: "456 Elm Street, Townsville",
+        thumbnail: "/assets/images/room2.jpeg",
         price: 2500,
         details_overview:
             "A spacious house with a large backyard, perfect for families.",
@@ -56,6 +58,7 @@ const properties = [
         property_name: "Modern Loft",
         property_type: "Loft",
         location: "789 Oak Street, Villagetown",
+        thumbnail: "/assets/images/room3.jpeg",
         price: 1800,
         details_overview:
             "A modern loft with high ceilings and an open floor plan.",
@@ -82,6 +85,7 @@ const properties = [
         property_name: "Luxury Condo",
         property_type: "Condo",
         location: "101 Pine Street, Hamletville",
+        thumbnail: "/assets/images/room1.jpeg",
         price: 3000,
         details_overview: "A luxurious condo with state-of-the-art amenities.",
         images: [
@@ -107,6 +111,7 @@ const properties = [
         property_name: "Charming Cottage",
         property_type: "Cottage",
         location: "321 Cedar Street, Countryside",
+        thumbnail: "/assets/images/room2.jpeg",
         price: 1200,
         details_overview:
             "A charming cottage nestled in the countryside, perfect for a weekend getaway.",
@@ -133,6 +138,7 @@ const properties = [
         property_name: "Rustic Cabin",
         property_type: "Cabin",
         location: "555 Maple Street, Forest",
+        thumbnail: "/assets/images/room3.jpeg",
         price: 1000,
         details_overview:
             "A rustic cabin surrounded by nature, ideal for those seeking solitude.",
@@ -159,6 +165,7 @@ const properties = [
         property_name: "Beachfront Villa",
         property_type: "Villa",
         location: "777 Beach Road, Seaside",
+        thumbnail: "/assets/images/room1.jpeg",
         price: 5000,
         details_overview:
             "A luxurious beachfront villa with breathtaking ocean views.",

@@ -6,7 +6,6 @@ import { GiFinishLine } from "react-icons/gi";
 import { LiaBedSolid } from "react-icons/lia";
 import { MdBalcony, MdBathtub } from "react-icons/md";
 import { TfiLocationPin } from "react-icons/tfi";
-import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -247,7 +246,6 @@ const DetailsCard = () => {
 
                 {/* Right side column */}
                 <div className="md:col-span-2">
-                    
                     {/* Google Map */}
                     <div>
                         <section className="mt-12">

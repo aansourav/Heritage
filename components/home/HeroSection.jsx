@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import Button from "../actions/Button";
 
@@ -32,14 +33,16 @@ const HeroSection = () => {
                         Seamlessly connecting you to the heartbeat of India’s
                         prime properties.
                     </p>
-                    <Button
-                        type={"secondary"}
-                        center={true}
-                        className={"gap-2 "}
-                    >
-                        <HiMagnifyingGlass />
-                        Find Property
-                    </Button>
+                    <Link href="/buy">
+                        <Button
+                            type={"secondary"}
+                            center={true}
+                            className={"gap-2 "}
+                        >
+                            <HiMagnifyingGlass />
+                            Find Property
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>

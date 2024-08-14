@@ -1,10 +1,22 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
-    reactStrictMode: true,
     images: {
-        domains: ["img.daisyui.com", "via.placeholder.com", "i.ibb.co"],
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "img.daisyui.com",
+            },
+            {
+                protocol: "https",
+                hostname: "via.placeholder.com",
+            },
+            {
+                protocol: "https",
+                hostname: "i.ibb.co",
+            },
+        ],
     },
-    webpack5: true,
 };
 
 export default nextConfig;

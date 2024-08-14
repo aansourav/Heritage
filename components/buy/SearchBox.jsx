@@ -10,6 +10,7 @@ import Section from "../ui/Section";
 const SearchBox = () => {
     const [selectedTab, setSelectedTab] = useState("Buy");
     const [isInputFocused, setIsInputFocused] = useState(false);
+    
 
     const cities = [
         "New York",

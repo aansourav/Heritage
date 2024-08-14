@@ -49,7 +49,9 @@ const Navbar = () => {
                     </div>
                     <div className="hidden lg:flex justify-end">
                         <div className="mx-2  px-2">Manage Rentals</div>
-                        <div className="mx-2  px-2">Sign Up</div>
+                        <Link href={"/signin"} className="mx-2  px-2">
+                            Sign In
+                        </Link>
                     </div>
                 </div>
             </div>
