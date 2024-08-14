@@ -20,16 +20,9 @@ const SignUp = () => {
 
     return (
         <div className="max-w-7xl md:w-7/12 mx-auto px-4 md:px-6 lg:px-10 mt-8">
-            <section>
-                <Link href="/">
-                    <div className="flex items-center gap-2 justify-center">
-                        <h2 className="text-3xl font-extrabold">Heritage</h2>
-                    </div>
-                    <h1 className="text-2xl md:text-4xl font-bold mt-8 md:mt-14">
-                        Signup! New Account.
-                    </h1>
-                </Link>
-            </section>
+            <h1 className="text-2xl md:text-4xl font-bold mt-8 md:mt-14">
+                Sign Up For A New Account
+            </h1>
 
             <section className="mt-8">
                 <form className="space-y-6">
